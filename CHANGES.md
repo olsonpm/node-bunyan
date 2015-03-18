@@ -6,9 +6,17 @@ Known issues:
   bug](https://github.com/TooTallNate/node-gyp/issues/65).
 
 
-## bunyan 1.3.4 (not yet released)
+## bunyan 1.3.5 (not yet released)
 
 (nothing yet)
+
+
+## bunyan 1.3.4
+
+- Allow `log.child(...)` to work even if the logger is a *sub-class*
+  of Bunyan's Logger class.
+- [issue #219] Hide 'source-map-support' require from browserify.
+- [issue #218] Reset `haveNonRawStreams` on `<logger>.addStream`.
 
 
 ## bunyan 1.3.3
